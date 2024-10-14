@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sharath-graphrag"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+neo4j = "^5.25.0"
+langchain = "^0.3.2"
+langchain-community = "^0.3.1"
+langchain-openai = "^0.2.2"
+pandas = "^2.2.3"
+python-dotenv = "^1.0.1"
+torch = "2.1.0"
+sentence-transformers = "^3.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
